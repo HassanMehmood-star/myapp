@@ -1,10 +1,9 @@
 <?php
 
 define("HELLO", "Hi");
-echo HELLO; // Output: Hi
+echo HELLO; 
 
 define("HELL", "Hi");
 
-// echo HELL;  // Output: Hi
-// echo hell;  // Output: Hi (because it's case-insensitive)
+
 ?>

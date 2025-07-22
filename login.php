@@ -17,10 +17,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (!empty($name)) {
         $_SESSION['user'] = $name;
-        echo "✅ You are logged in as <b>" . $_SESSION['user'] . "</b><br><br>";
+        echo " You are logged in as <b>" . $_SESSION['user'] . "</b><br><br>";
         echo '<a href="dashboard.php">Go to Dashboard</a>';
     } else {
-        echo "❌ Please enter a valid name.<br><br>";
+        echo " Please enter a valid name.<br><br>";
     }
 }
 ?>

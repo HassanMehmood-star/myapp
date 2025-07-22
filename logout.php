@@ -3,6 +3,5 @@ session_start();
 session_unset();        // Clear session variables
 session_destroy();      // Destroy session
 
-// Optional: Redirect to login page
 header("Location: login.php");
 exit();
